@@ -106,7 +106,7 @@ nav {
 
   #blog-container {
     justify-content: center;
-    margin: 3rem 0;
+    margin: 0 auto;
   }
 
   .blog-card {
