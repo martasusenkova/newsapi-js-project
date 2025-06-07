@@ -23,7 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.3rem 0;
+  padding: 1.5rem 20px;
 }
 .navbar .logo {
   color: #ffffff;
@@ -55,9 +55,9 @@ nav {
 #blog-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin: 3rem 0;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
 }
 
 .blog-card {
@@ -67,10 +67,11 @@ nav {
   cursor: pointer;
   padding: 1rem;
   margin: 10px;
+  height: 520px;
 }
 
 .blog-card:hover {
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 10px rgba(55, 47, 47, 0.7);
 }
 .blog-card img {
   width: 100%;
@@ -83,11 +84,13 @@ nav {
 .blog-card h2 {
   color: #2d4c50;
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .blog-card p {
   font-size: 1.2rem;
+  width: fit-content;
+  overflow: hidden;
   padding-top: 0.7rem;
 }
 
