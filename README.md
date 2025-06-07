@@ -41,4 +41,7 @@ A short description
 Clicking on a card opens the full article in a new browser tab.
 
 📌 Note
-This project is for educational purposes and limited by the NewsAPI free tier restrictions.
+This project is for educational purposes and limited by the NewsAPI free tier restrictions.### Notes
+
+HTML class and ID names follow the **kebab-case** naming convention to improve readability and consistency.
+
